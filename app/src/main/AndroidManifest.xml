@@ -9,7 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Select_actions"></activity>
+        <activity android:name=".Requests"></activity>
+        <activity android:name=".No_result" />
+        <activity android:name=".chat" />
+        <activity android:name=".search_results" />
+        <activity
+            android:name=".manager_activity"
+            android:parentActivityName=".Select_actions" />
+        <activity android:name=".Select_actions" />
         <activity android:name=".registration" />
         <activity android:name=".MainActivity">
             <intent-filter>
